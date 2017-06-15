@@ -1,2 +1,10 @@
+platform:ios, '8.0'
+
+inhibit_all_warnings!
+
+target ‘掌上NBA’ do
+
 pod 'AFNetworking'
-pod 'SDWebImage'
+pod 'SDWebImage', :configurations => ['Debug']
+
+end
