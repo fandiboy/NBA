@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0456019852E8BEA22DF0BCB6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D618A34C578267A1255B4 /* libPods.a */; };
+		2C22D1023C6301DD783708FD /* libPods-掌上NBA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4513E8258698B4D555909DC /* libPods-掌上NBA.a */; };
 		300B1E961BFCB35A00BFD541 /* NewsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B1E951BFCB35A00BFD541 /* NewsDetailModel.m */; };
 		300BC6C71BFC7EE100E48792 /* NewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300BC6C51BFC7EE100E48792 /* NewsDetailController.m */; };
 		300BC6C81BFC7EE100E48792 /* NewsDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300BC6C61BFC7EE100E48792 /* NewsDetailController.xib */; };
@@ -75,6 +75,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6258125B7576E44D701B7B /* Pods-掌上NBA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-掌上NBA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-掌上NBA/Pods-掌上NBA.debug.xcconfig"; sourceTree = "<group>"; };
 		300B1E941BFCB35A00BFD541 /* NewsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailModel.h; sourceTree = "<group>"; };
 		300B1E951BFCB35A00BFD541 /* NewsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailModel.m; sourceTree = "<group>"; };
 		300BC6C41BFC7EE100E48792 /* NewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailController.h; sourceTree = "<group>"; };
@@ -173,9 +174,8 @@
 		30FB519C1BFF1D6F00A7FE92 /* TeamTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableViewController.m; sourceTree = "<group>"; };
 		30FB519E1BFF204B00A7FE92 /* TeamDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDataManager.h; sourceTree = "<group>"; };
 		30FB519F1BFF204B00A7FE92 /* TeamDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDataManager.m; sourceTree = "<group>"; };
-		5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C23D618A34C578267A1255B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		84A208FE971495E3BFEDEA37 /* Pods-掌上NBA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-掌上NBA.release.xcconfig"; path = "Pods/Target Support Files/Pods-掌上NBA/Pods-掌上NBA.release.xcconfig"; sourceTree = "<group>"; };
+		E4513E8258698B4D555909DC /* libPods-掌上NBA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-掌上NBA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0456019852E8BEA22DF0BCB6 /* libPods.a in Frameworks */,
+				2C22D1023C6301DD783708FD /* libPods-掌上NBA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +195,8 @@
 			children = (
 				3037B9D41BF9C02700AD1DA2 /* 掌上NBA */,
 				3037B9D31BF9C02700AD1DA2 /* Products */,
-				3BF6925BFC9B4087082DDD54 /* Pods */,
-				C1F0ECD90AFD10411BFF7606 /* Frameworks */,
+				44878628FA9B2383531F063C /* Pods */,
+				F80BF1B7983D2D0F0D548CC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -432,19 +432,19 @@
 			path = "测试图片";
 			sourceTree = "<group>";
 		};
-		3BF6925BFC9B4087082DDD54 /* Pods */ = {
+		44878628FA9B2383531F063C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */,
-				5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */,
+				0A6258125B7576E44D701B7B /* Pods-掌上NBA.debug.xcconfig */,
+				84A208FE971495E3BFEDEA37 /* Pods-掌上NBA.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C1F0ECD90AFD10411BFF7606 /* Frameworks */ = {
+		F80BF1B7983D2D0F0D548CC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C23D618A34C578267A1255B4 /* libPods.a */,
+				E4513E8258698B4D555909DC /* libPods-掌上NBA.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -456,12 +456,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3037B9E91BF9C02800AD1DA2 /* Build configuration list for PBXNativeTarget "掌上NBA" */;
 			buildPhases = (
-				84C1FA4C8EDEBCCBAE176F44 /* Check Pods Manifest.lock */,
+				2FCB80A090F5C611266FAFF0 /* [CP] Check Pods Manifest.lock */,
 				3037B9CE1BF9C02700AD1DA2 /* Sources */,
 				3037B9CF1BF9C02700AD1DA2 /* Frameworks */,
 				3037B9D01BF9C02700AD1DA2 /* Resources */,
-				34D4997CD432ADDA3C2FDECC /* Embed Pods Frameworks */,
-				F16A1A8CE37DF12A3A76B697 /* Copy Pods Resources */,
+				6885E761C719E53F42491292 /* [CP] Embed Pods Frameworks */,
+				6D319961A77CF5AAA26C8FCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -550,49 +550,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34D4997CD432ADDA3C2FDECC /* Embed Pods Frameworks */ = {
+		2FCB80A090F5C611266FAFF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		84C1FA4C8EDEBCCBAE176F44 /* Check Pods Manifest.lock */ = {
+		6885E761C719E53F42491292 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-掌上NBA/Pods-掌上NBA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F16A1A8CE37DF12A3A76B697 /* Copy Pods Resources */ = {
+		6D319961A77CF5AAA26C8FCF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-掌上NBA/Pods-掌上NBA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -739,7 +739,7 @@
 		};
 		3037B9EA1BF9C02800AD1DA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8313CE8841FACFD7464FE2A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 0A6258125B7576E44D701B7B /* Pods-掌上NBA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "掌上NBA/NBAPCH.pch";
@@ -752,7 +752,7 @@
 		};
 		3037B9EB1BF9C02800AD1DA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5249D4DABE1FB2931E9CE2F6 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 84A208FE971495E3BFEDEA37 /* Pods-掌上NBA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "掌上NBA/NBAPCH.pch";
